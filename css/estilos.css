@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imagen/fondo1.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+#bgvideo{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+    min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+    z-index: -100;
+    background: url(.mp4); no-repeat;
+    background-size: cover;
+}
+
+video{
+	display: black;
+	margin: 0px;
+
+	}
