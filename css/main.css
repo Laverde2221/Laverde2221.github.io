@@ -208,6 +208,39 @@ header{
 
 /* Galeria */
 
+.btn {
+  position: relative;
+  height: 40px;
+  width: 300px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #00CC00;
+  color: #000;
+  font-size: 25px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 2px solid #b2ff2f;
+  margin-bottom: 40px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: #b2ff2f;
+  transition: all 500ms ease;
+  z-index: -1;
+}
+.btn--3:hover {
+  animation: shadow-pulse 1000ms 1;
+  background-color: #b2ff2f;
+  color: #434343;
+}
 
 .portafolio{
     background: #000;
